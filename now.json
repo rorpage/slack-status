@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "slack-status",
+  "builds": [{ "src": "/api/status/index.js", "use": "@now/node-server" }],
+  "env": {
+    "AUTH_KEY": "@auth_token",
+    "BEARER_TOKEN": "@bearer_token"
+  }
+}

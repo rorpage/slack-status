@@ -1,0 +1,10 @@
+{
+    "name": "slack-status",
+    "version": "1.0.0",
+    "description": "Set your Slack status via a simple API",
+    "author": "rorpage",
+    "license": "MIT",
+    "dependencies": {
+        "node-fetch": "^2.3.0"
+    }
+}
